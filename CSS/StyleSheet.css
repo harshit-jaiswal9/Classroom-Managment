@@ -1,0 +1,1708 @@
+﻿
+ body
+ {
+     background-image: linear-gradient(to right bottom, #08feff, #15ffe3, #4dffc1, #7afd9b, #a4f874, #a2f675, #9ff375, #9df176, #74f09c, #52edbe, #49e7d7, #5fdfe6);
+     }
+.btn
+{
+    position: relative;
+    padding: 15px 20px;
+    margin: 20px;
+    background: #fff;
+    font-size: 18px;
+    display: inline-block;
+    color: #03a9f4 !important;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    
+    
+    
+    
+    }
+    
+    
+    .btn:hover
+    {
+         letter-spacing: 4px;
+          background-color: #AD0057;
+          color: #fff !important;
+        }
+        
+        #popup
+        {
+            position: fixed;
+            top: -100%;
+            left: 50%;
+            transform:translate(-50%,-50%);
+            z-index: 1000;
+            background: #fff;
+            width: 450px;
+            padding: 80px 50px 50px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+            transition: 0.5s;
+            visibility: hidden;
+            
+            } 
+            
+            #popup.active
+            {
+             visibility: visible;
+             top: 50%;
+                }
+            #popup .content .container
+            
+             {
+                 position: relative;
+                 width: 100%;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 flex-direction: column;
+                 
+                 
+                 }
+                 
+               #popup .content img
+             {
+                 max-width: 80px;
+             } 
+               #popup .content h2
+               {
+                   
+                   font-size: 24px;
+                   font-weight: 500;
+                   color: #333;
+                   margin: 20px 0 10px;
+                   
+                   }
+                   
+                     #popup .content .inputbox
+                     {
+                         position: relative;
+                         width: 100%;
+                         margin-top: 20px;
+                         display: flex;
+                         justify-self: start;
+                         align-items: center;
+                         
+                         }
+                         
+                           #popup .content .inputbox input
+                           {
+                               
+                               width: 100%;
+                               border: 1px solid rgba(0,0,0,0.2);
+                               padding: 15px;
+                               outline: none;
+                               font-size: 18px;
+                               
+                               }
+                               
+                                #popup .content .inputbox input[type="submit"]
+                                {
+                                    max-width: 150px;
+                                   
+                                   background: #112d42; 
+                                                
+                                 /*   background: #03a9f4; */
+                                    color: #fff !important;
+                                    border: none;
+                                    }
+                                     #popup .content .inputbox input[type="submit"]:hover
+                                     {
+                                         background: #ff568c; 
+                                                       transition: 0.5s;
+                                         
+                                         }
+                               
+                               
+                              #popup #close
+                               {
+                                   position: absolute;
+                                 /*  top: 30px;
+                                   left: 480px; */
+                                   cursor: pointer;
+                                       
+                                   top: 50px;
+                               left: 390px;
+                               }
+
+                                   
+                      #popup #close:hover
+                      {
+                          background: #fff !important;
+                          }             
+                                   
+                                   
+                                   
+                                    #popup #close img
+                                    {
+                                        max-width: 20px;
+                                        
+                                         }
+                               
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ .Section
+       {
+           position: relative;
+           
+           min-height: 80vh;
+           background-color: linear-gradient(to right top, #6297e6, #938be0, #ba7ecf, #d771b5, #e86895);
+          
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           padding: 20px;
+       }
+       
+       
+       .Section .container
+       {
+           position: relative;
+           width: 1200px;
+           height: 650px;
+           background: #fff;
+           box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+           overflow: hidden;
+
+}
+           
+           
+           .Section .container .user
+           {
+               position: absolute;
+               top: 0;
+               left: 0;
+               width: 100%;
+               height: 100%;
+               display: flex;
+               
+               
+               }
+               
+               
+                .Section .container .user .imgBx
+                {
+                      position: relative;
+           width: 50%;
+           height: 100%;
+           background: #ff0;
+           
+           transition: 0.5s;
+                    
+                    }
+           
+           
+                  .Section .container .user .imgBx img
+                  {
+                      
+                       position: absolute;
+               top: 0;
+               left: 0;
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+                      
+                      }  
+                      
+                      
+                      
+           .Section .container .user .formBx
+           {
+                          position: relative;
+                             width: 70%;
+           height: 70%;
+           background: #fff;  
+             display: flex;
+                justify-content: center;
+           align-items: center;
+           padding: 40px;
+        transition: 0.5s;
+        margin-top: 50px;
+                            
+                            }  
+                            
+                            
+                         /*    section .container .user .formBx form h2
+                             {
+                                 font-size: 18px;
+                                 font-weight: 600;
+                                 text-transform: uppercase;
+                                 letter-spacing: 2px;
+                                 text-align: center;
+                                 width: 100%;
+                                 margin-bottom: 10px;
+                                 color: #555;
+                                 
+                                 
+                                 } 
+                                 
+                                 
+                       section .container .user .formBx form input
+                                               {
+                                     
+   
+                                      position: relative;               old code with form
+                                      width: 100%;
+                                      padding: 10px;
+                                      background: #f5f5f5;
+                                      color: #333;
+                                      outline: none;
+                                      border: none;
+                                      box-shadow: none;
+                                      margin: 8px 0;
+                                      font-size: 14px; 
+                                        letter-spacing: 1px;
+                                         font-weight: 300;
+    
+}
+ 
+
+
+               
+                  
+                  /*            
+                   
+                   
+                    section .container .user .formBx form .signup
+                                               {
+                                                 position: relative;
+                                                 margin-top: 20px;
+                                                    font-size: 14px;
+                                         
+                                          letter-spacing: 1px;
+                                          color: #555;
+                                          text-transform: uppercase;
+                                          font-weight: 300;
+                                                   
+                                                   }
+                                                   
+                                                   
+                                                      section .container .user .formBx form .signup a
+                                                      {
+                                                         font-weight:600;
+                                                         text-decoration: none;
+                                                         color: #677eff; 
+                                                          
+                                                          
+                                                          } */
+                   
+                   
+                   
+                   
+                   
+                              
+                              
+                              
+            /*
+                                       
+                                        section .container .user .formBx form input[type="submit"]
+                                        
+                                        {
+                                          max-width: 100px;
+                                          background: #677eff;
+                                          color: #fff;
+                                          cursor: pointer;
+                                          font-size: 14px;
+                                          font-weight: 500;
+                                          letter-spacing: 1px;
+                                             transition: 0.5s;
+                           
+                                            
+                                            
+                                            
+                                            }
+                                            
+                                            section .container .user .formBx form input[type="submit"]:hover
+                                            
+                                            {background: #ff568c;
+                                             transition: 0.5s;
+                                                
+                                                }
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                             section .container .user .formBx form input[type="button"]
+                                        
+                                        {
+                                          max-width: 100px;
+                                          background: #677eff;
+                                          color: #fff;
+                                          cursor: pointer;
+                                          font-size: 14px;
+                                          font-weight: 500;
+                                          letter-spacing: 1px;
+                                             transition: 0.5s;
+                           
+                                            
+                                            
+                                            
+                                            }
+                                            
+                                            section .container .user .formBx form input[type="button"]:hover
+                                            
+                                            {background: #ff568c;
+                                             transition: 0.5s;
+                                                
+                                                }
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            */
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                         /*   
+                                               section .container .user .formBx form .signup
+                                               {
+                                                 position: relative;
+                                                 margin-top: 20px;
+                                                    font-size: 14px;
+                                         
+                                          letter-spacing: 1px;
+                                          color: #555;
+                                          text-transform: uppercase;
+                                          font-weight: 300;
+                                                   
+                                                   }
+                                                   
+                                                   
+                                                      section .container .user .formBx form .signup a
+                                                      {
+                                                         font-weight:600;
+                                                         text-decoration: none;
+                                                         color: #677eff; 
+                                                          
+                                                          
+                                                          } */
+                                                      
+                                                                                     
+                                     .Section .container .singupBx
+                                      {
+                                          pointer-events: none;
+    
+ } 
+                                          
+                                                              
+                                      .Section .container.active .singupBx
+                                      {
+                                          pointer-events: initial;
+                                          
+                                          }                  
+                                                      
+                                                      
+                                    .Section .container .singupBx .formBx
+                                    {
+                                        
+                                     left: 100%;
+ 
+}
+                                        
+                                          .Section .container.active .singupBx .formBx
+                                    {
+                                        
+                                     left: 0;   
+                                        }
+                                                       
+                                                            
+                                    .Section .container .singupBx .imgBx
+                                    {
+                                        
+                                     left: -100%;   
+                                        }
+                                                       
+                                                                    
+                                    .Section .container.active .singupBx .imgBx
+                                    {
+                                        
+                                     left: 0;   
+                                        }  
+                                        
+                                        
+                                      
+                                      
+                                      
+                                      
+                                      
+                                      
+                                      
+                                      
+                                      
+                                      
+                                                         
+                                      
+                                      
+                                      
+                                  /*      section .container .singinBx
+                                      {
+                                          pointer-events: none;
+    
+ } 
+                                          
+                                                              
+                                      section .container.active .singinBx
+                                      {
+                                          pointer-events: initial;
+                                          
+                                          }  */
+                                        
+                                        
+                                        
+                                       .Section .container .singinBx .formBx
+                                    {
+                                        
+                                     left: 0;   
+                                        }
+                                        
+                                          .Section .container.active .singinBx .formBx
+                                    {
+                                        
+                                     left: 100%;   
+                                        }
+                                                       
+                                                            
+                                    .Section .container .singinBx .imgBx
+                                    {
+                                        
+                                     left: 0;   
+                                        }
+                                                       
+                                                                    
+                                    .Section .container.active .singinBx .imgBx
+                                    {
+                                        
+                                     left: -100%;   
+                                        }
+                                        
+                                        
+                                        
+                                        
+                                      @media (max-width: 991px)
+                                      {
+                                          section .container
+                                          {
+                                              max-width: 400px;
+                                              }
+                                               section .container .imgBx
+                                               {
+                                                  display: none; 
+                                                   }
+                                                   
+                                                    section .container .user .formBx
+                                                    {
+                                                        width: 100%;
+                                                        }
+                                          
+                                          
+                                          
+                                          }  
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                      /* forget form */
+                      
+                              /*   section .container .user .formBx form .forget
+                                               {
+                                                 position: relative;
+                                                 margin-top: 20px;
+                                                    font-size: 14px;
+                                         
+                                          letter-spacing: 1px;
+                                          color: #555;
+                                          text-transform: uppercase;
+                                          font-weight: 300;
+                                                   
+                                                   }
+                                                   
+                                                   
+                                                    section .container .user .formBx form .forget a
+                                                      {
+                                                         font-weight:600;
+                                                         text-decoration: none;
+                                                         color: #677eff; 
+                                                          
+                                                          
+                                                          } 
+                                                          
+                                                          
+                                                          
+                                                 */
+                                                 
+                                                 
+                                                 
+                                                
+                                                 
+                                                 
+                                                 
+                                        .Section .container .forgetBx
+                                      {
+                                          pointer-events: none;
+                                          
+                                          } 
+                                          
+                                                              
+                                 .Section .container.actives .forgetBx
+                                      {
+                                          pointer-events: initial;
+                                          
+                                          }                 
+                                                      
+                                                      
+                                    .Section .container .forgetBx .formBx
+                                    {
+                                        
+                                     top: 100%;  
+                                        } 
+                                        
+                                  
+                                        
+                                          .Section .container.actives .forgetBx .formBx
+                                    {
+                                        
+                                     top: 0;   
+                                        }
+                                                       
+                                                            
+                                    .Section .container .forgetBx .imgBx
+                                    {
+                                      top: -100%;  
+
+}
+                                                       
+                                                                    
+                                    .Section .container.actives .forgetBx .imgBx
+                                    {
+                                        
+                                     top: 0;   
+                                        }
+                                        
+                                        
+                                        
+                                           .Section .container .singinBx .formBx
+                                    {
+                                        
+                                     top: 0;   
+                                        }
+                                        
+                                          .Section .container.actives .singinBx .formBx
+                                    {
+                                        
+                                     top: 100%;   
+                                        }
+                                                       
+                                                            
+                                    .Section .container .singinBx .imgBx
+                                    {
+                                        
+                                     top: 0;
+   
+}
+                                                       
+                                                                    
+                                    .Section .container.actives .singinBx .imgBx
+                                    {
+                                        
+                                     top: -100%;   
+                                        }
+                                  
+                                 
+                                 
+                                 
+                                  
+                                    /* Change new password */
+                                  
+                                  
+             
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                      
+   ul
+{
+    margin:0;
+    padding:0;
+    display:flex;
+    
+    }
+  ul  li
+    {
+        list-style:none;
+        margin:0 20px;
+        transition:0.3s;
+        
+     }
+     
+   ul li a
+     {
+      display:block;
+      position:relative;
+      text-decoration: none;  
+  /*   text-decoration:Blink; */
+    font-weight: bold;
+       padding:5px;
+       font-size:18px;
+       font-family:Sans-Serif;
+       Color:Black;
+      
+       text-transform:uppercase;
+         
+         
+       }
+      ul:hover li  a
+         {
+           transform: scale(1.3);
+           opacity: .2;
+           filter: blur(5px);  
+             
+             
+          }
+          
+         ul li a:hover
+         {
+             background-color: #AD0057;
+             color: White !important;
+             
+           transform: scale(1.2);
+           opacity: 1;
+           filter: blur(0);  
+             
+             
+          }
+          
+      ul li a :before
+          {
+              content:'';
+              position:absolute;
+              top:0;
+              left:0;
+              
+              width:100px;
+              height:100px;
+              background:#ff497c;
+              transition: transform 0.5s;
+              transform-orgin:right;
+              transform:scaleX(0);
+              z-index:-1;
+              
+              
+              }
+            ul li a:hover:before
+              {
+                  transition:transform 0.5s;
+              transform-orgin:left;
+              transform:scaleX(0); 
+                  }
+                  
+                  #Button:hover
+                  {
+                     width:100px;
+              height:100px;
+              background:blue;
+              color:Olive; 
+                      
+                      }
+
+
+/*<p style="text-align:left">*/
+
+
+
+
+
+#navbar {
+  overflow: hidden;
+    background-image: linear-gradient(to right top, #e36ba0, #c977c1, #c19ad9, #d88bc2, #e67ea3);
+  padding-top: 10px;
+    margin-top: -6px;
+
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+    top: 0px;
+    left: 0px;
+   /* height: 18px; */
+}
+
+#navbar a:hover {
+   background-image: linear-gradient(to right top, #6297e6, #938be0, #ba7ecf, #d771b5, #e86895);
+                        
+  color: White;
+/*  height: 40px; */
+}
+
+#navbar a.active {
+   
+  color: black;
+    top: 0px;
+    left: 0px;
+    height: 40px;
+}
+#navbar a.active:hover {
+  background-color: #AD0057;
+  color: white;
+}
+
+.contents {
+  padding: 60px;
+  
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .contents {
+  padding-top: 60px;
+}
+    
+    
+    
+    
+                                        .a
+                                        
+                                        {
+                                           
+ 
+                                          max-width: 200px;
+                                          background: #677eff;
+                                          color: #fff;
+                                          cursor: pointer;
+                                          font-size: 14px;
+                                          font-weight: 500;
+                                          letter-spacing: 1px;
+                                             transition: 0.5s;
+                                             margin: 20px;
+                                              text-transform:uppercase;
+                            border-radius: 50px;
+                                            
+                                            
+                                            
+                                            
+                                            } 
+                                            
+                               .a:hover
+                               {
+                                    background-color: #AD0057;
+                                    transform: scale(1.2);
+                                   color: #fff;
+                                    
+         
+             
+                                   }
+                                   
+                                   
+       #navbar #active {
+ 
+  color: #00feff;
+   
+}
+#navbar #active:hover {
+  background-color: #AD0057;
+  color: white;
+}
+                               
+                                            
+                                            
+                                            
+ #date-location { display: inline-block; position: absolute; left: 45px; top: 145px; text-align: left; background-color: #FFFFFF; border: 1px solid #006699; padding: 4px; z-index: 2; }
+
+.date-font { color: #006699; font: 13px arial, sans-serif; font-weight: bold; }
+      
+      
+      
+      
+      
+ .sec-title {
+	position: relative;
+	margin-bottom: 40px;
+}
+.sec-title h2 {
+	position: relative;
+	display: block;
+	font-size: 36px;
+	line-height: 30px;
+	color: #000000c9;
+	font-weight: 600;
+	padding: 60px;
+	-webkit-mask-image: linear-gradient(-75deg, rgba(10,21,169,0.6) 50%, #ff7e00 50%, rgba(0,0,0,1) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 3s infinite;
+}
+
+.sec-title h2:before{
+	/* content: ""; */
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 40px;
+	/* height: 2px; */
+	background-color:Red;
+}
+
+.sec-title h2:after{
+	/* content: ""; */
+	/* position: absolute; */
+	/* left: 45px; */
+	/* bottom: 0; */
+	/* width: 10px; */
+	/* height: 2px; */
+	/* background-color:#333333; */
+}
+
+
+.sec-title.text-center {
+	right: 0;
+	margin: 0 auto;
+}
+
+.sec-title.text-center h2:before{
+	left: 47%
+}
+
+.sec-title.text-center h2:after{
+	left: 51%;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+                                           .textbox
+                                               {
+                                     
+   
+                                      position: relative;
+                                      width: 100%;
+                                      padding: 10px;
+                                      background: #f5f5f5;
+                                      color: #333;
+                                      outline: none;                       new code start here ----
+                                      border: none;
+                                      box-shadow: none;
+                                      margin: 8px 0;
+                                      font-size: 14px; 
+                                        letter-spacing: 1px;
+                                         font-weight: 300;
+    
+} 
+        
+        
+         
+        .Form1 {
+        display: block;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+        
+        
+        
+                          #Signinh2
+                             {
+                                 font-size: 18px;
+                                 font-weight: 600;
+                                 text-transform: uppercase;
+                                 letter-spacing: 2px;
+                                 text-align: center;
+                                 width: 100%;
+                                 margin-bottom: 10px;
+                                 color: #555;
+                                 
+                                 
+                                 } 
+                                  #Signinh21
+                             {
+                                 font-size: 18px;
+                                 font-weight: 600;
+                                 text-transform: uppercase;
+                                 letter-spacing: 2px;
+                                 text-align: center;
+                                 width: 100%;
+                                 margin-bottom: 10px;
+                                 color: #555;
+                                 
+                                 
+                                 } 
+                                  #Signuph2
+                             {
+                                 font-size: 18px;
+                                 font-weight: 600;
+                                 text-transform: uppercase;
+                                 letter-spacing: 2px;
+                                 text-align: center;
+                                 width: 100%;
+                                    margin-bottom: -5px;
+                                     margin-top: 25px;
+                                       color: #555;
+                                 
+                                 
+                                 
+                                 } 
+                            #Forgeth2
+                             {
+                                 font-size: 18px;
+                                 font-weight: 600;
+                                 text-transform: uppercase;
+                                 letter-spacing: 2px;
+                                 text-align: center;
+                                 width: 100%;
+                                 margin-bottom: 10px;
+                                 color: #555;
+                                 
+                                 
+                                 } 
+                                   #Changeh2
+                             {
+                                 font-size: 18px;
+                                 font-weight: 600;
+                                 text-transform: uppercase;
+                                 letter-spacing: 2px;
+                                 text-align: center;
+                                 width: 100%;
+                                 margin-bottom: 10px;
+                                 color: #555;
+                                 
+                                 
+                                 } 
+        
+        
+        
+        
+                                .forgets
+                                               {
+                                                 position: relative;
+                                                 margin-top: 20px;
+                                                    font-size: 14px;
+                                         
+                                          letter-spacing: 1px;
+                                          color: #555;
+                                          text-transform: uppercase;
+                                          font-weight: 300;
+                                                   
+                                                   }
+                                                   
+                                                   
+                                                       .forgets a
+                                                      {
+                                                         font-weight:600;
+                                                         text-decoration: none;
+                                                         color: #677eff !important; 
+                                                         float: none !important; 
+                                                              display: inline  !important;
+                                                          padding: 0 0 !important;
+                                                          
+                                                          } 
+                                                          .forgets a:hover
+                                                          {
+                                                              background : #fff !important;
+                                                              }
+                                                          
+                                                          
+                                                          
+                                                          .Change
+                                               {
+                                                 position: relative;
+                                                 margin-top: 20px;
+                                                    font-size: 14px;
+                                         
+                                          letter-spacing: 1px;
+                                          color: #555;
+                                          text-transform: uppercase;
+                                          font-weight: 300;
+                                                   
+                                                   }
+                                                   
+                                                   
+                                                       .Change a
+                                                      {
+                                                         font-weight:600;
+                                                         text-decoration: none;
+                                                         color: #677eff; 
+                                                          
+                                                          
+                                                          } 
+                                                             
+                                                             
+                                                             
+                                                             
+                                                        .signups
+                                               {
+                                                 position: relative;
+                                                 margin-top: 20px;
+                                                    font-size: 14px;
+                                         
+                                          letter-spacing: 1px;
+                                          color: #555;
+                                          text-transform: uppercase;
+                                          font-weight: 300;
+                                                   
+                                                   }
+                                                   
+                                                   
+                                                      .signups a
+                                                      {
+                                                         font-weight:600;
+                                                         text-decoration: none;
+                                                         color: #677eff !important; 
+                                                              float: none !important; 
+                                                              display: inline  !important;
+                                                    padding: 0 0 !important;      
+                                                          
+                                                          }
+                                                          .signups a:hover
+                                                          {
+                                                              background : #fff !important ;
+                                                              }
+                                                
+                                              
+                       section .container .user .formBx .Form1 input
+                                               {
+                                     
+   
+                                      position: relative;              
+                                      width: 100%;
+                                      padding: 10px;
+                                      background: #f5f5f5;
+                                      color: #333;
+                                      outline: none;
+                                      border: none;
+                                      box-shadow: none;
+                                      margin: 4px 0;
+                                      font-size: 14px; 
+                                        letter-spacing: 1px;
+                                         font-weight: 300;
+    
+}
+
+                          
+                                 .TextBox1
+                                               {
+                                     
+   
+                                      position: relative;              
+                                      width: 100%;
+                                      padding: 10px;
+                                      background: #f5f5f5;
+                                      color: #333;
+                                      outline: none;                     /*verifica page text box */
+                                      border: none;
+                                      box-shadow: none;
+                                      margin: 8px 0;
+                                      font-size: 14px; 
+                                        letter-spacing: 1px;
+                                         font-weight: 300;
+    
+}
+ 
+ 
+ /*
+                                      .Buttons                     
+                                        
+                                        {
+                                          max-width: 100px;
+                                          background: #677eff;
+                                          border-color:#677eff;
+                                          color: #fff;
+                                          margin: 8px 0px;
+                                          padding: 10px;
+                                          height: 36px;
+                                          width: 100px;
+                                          cursor: pointer;
+                                          font-size: 14px;
+                                          font-weight: 500;
+                                          letter-spacing: 1px;
+                                             transition: 0.5s;
+                           
+                                            
+                                            
+                                            
+                                            }
+                                            
+                                           .Buttons:hover
+                                            
+                                            {background: #ff568c;
+                                             border-color:#ff568c;
+                                             transition: 0.5s;
+                                                
+                                                } */
+                                                
+                                                
+                                                
+                                                 .Section .container .user .formBx .Form1 input[type="submit"]
+                                        
+                                        {
+                                          max-width: 100px;
+                                          background: #677eff;
+                                          color: #fff;
+                                          cursor: pointer;
+                                          font-size: 14px;
+                                          font-weight: 500;
+                                          letter-spacing: 1px;
+                                             transition: 0.5s;
+                           
+                                            
+                                            
+                                            
+                                            }
+                                            
+                                            .Section .container .user .formBx .Form1 input[type="submit"]:hover
+                                            
+                                            {background: #ff568c;
+                                             transition: 0.5s;
+                                                
+                                                }  
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                /* Email indicator and verify */
+                                                
+                                                
+                                                .emails
+                                                {
+                                                    width: 100%;
+                                                    outline: none;
+                                                    background: transperent;
+                                                    border: navajowhite;
+                                                    padding: 10px;
+                                                    background: #f5f5f5;
+                                                      color: #333;
+                                                    font-size: 14px;
+                                                    
+                                                    } 
+                                                    
+                                                  #form .indicator
+                                                    {
+                                                        position : absolute;
+                                                       
+                                                            top: 20px;
+                                                           right: 25px; 
+                                                        width: 12px;
+                                                        height: 12px;
+                                                        background: #f5f5f5;
+                                                        border-radius: 50%;
+                                                        }
+
+                                                       #form.valid .indicator  
+                                                       {
+                                                           background: #0f0;
+                                                           box-shadow: 0 0 5px #0f0,
+                                                                       0 0 10px #0f0,
+                                                                       0 0 20px #0f0,
+                                                                       0 0 40px #0f0;
+                                                           }    
+                                                           
+                                                            #form.invalid .indicator  
+                                                       {
+                                                           background: #f00;
+                                                           box-shadow: 0 0 5px #f00,
+                                                                       0 0 10px #f00,
+                                                                       0 0 20px #f00,
+                                                                       0 0 40px #f00;
+                                                           }
+                                                           
+                                                           
+                                                           
+                                                          
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                            .email
+                                                {
+                                                    width: 100%;
+                                                    outline: none;
+                                                    background: transperent;
+                                                    border: navajowhite;
+                                                    padding: 10px;
+                                                    background: #f5f5f5;
+                                                      color: #333;
+                                                    font-size: 14px;
+                                                    
+                                                    } 
+                                                    
+                                                  #formSignup .indicator
+                                                    {
+                                                        position : absolute;
+                                                       
+                                                            top: 20px;
+                                                           right: 25px; 
+                                                        width: 12px;
+                                                        height: 12px;
+                                                        background: #f5f5f5;
+                                                        border-radius: 50%;
+                                                        }
+
+                                                       #formSignup.valid .indicator  
+                                                       {
+                                                           background: #0f0;
+                                                           box-shadow: 0 0 5px #0f0,
+                                                                       0 0 10px #0f0,
+                                                                       0 0 20px #0f0,
+                                                                       0 0 40px #0f0;
+                                                           }    
+                                                           
+                                                            #formSignup.invalid .indicator  
+                                                       {
+                                                           background: #f00;
+                                                           box-shadow: 0 0 5px #f00,
+                                                                       0 0 10px #f00,
+                                                                       0 0 20px #f00,
+                                                                       0 0 40px #f00;
+                                                           }
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                         #popup1
+        {
+            position: fixed;
+            top: -100%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            z-index: 1000;
+            background: transparent;
+        /*    width: 450px; */
+        width: 100vh;
+            padding: 80px 50px 50px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+            transition: 0.5s;
+            visibility: hidden;
+            
+            
+            min-height: 80vh;
+            
+            } 
+            
+            #popup1.active
+            {
+             visibility: visible;
+             top: 60%;
+                }
+            #popup1 .content .container
+            
+             {
+                 position: relative;
+                 width: 100%;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 flex-direction: column;
+                 
+                 
+                 }
+                 
+          /*     #popup1 .content .container img
+             {
+                 max-width: 80px;
+             }  */
+               #popup1 .content h2
+               {
+                   
+                   font-size: 24px;
+                   font-weight: 500;
+                   color: #333;
+                 /*  margin: 20px 0 10px; */
+                   
+                   }
+                   
+                     #popup1 .content .inputbox
+                     {
+                         position: relative;
+                         width: 100%;
+                         margin-top: 20px;
+                         display: flex;
+                         justify-self: start;
+                         align-items: center;
+                         
+                         }
+                         
+                          
+                               
+                                #popup1 .content .inputbox input[type="submit"]
+                                {
+                                    max-width: 150px;
+                                   
+                                   background: #112d42; 
+                                                
+                                 /*   background: #03a9f4; */
+                                    color: #fff !important;
+                                    border: none;
+                                    }
+                                     #popup1 .content .inputbox input[type="submit"]:hover
+                                     {
+                                         background: #ff568c; 
+                                                       transition: 0.5s;
+                                         
+                                         }
+                               
+                               
+                              #popup1 #closes
+                               {
+                                   position: absolute;
+                                 /*  top: 30px;
+                                   left: 480px; */
+                                   cursor: pointer;
+                                       
+                                  top: 90px;
+                                    left: 825px;
+}
+                                   
+                                   }
+                                    #popup1 #closes:hover
+                                    {
+                                      /* background: #fff; */
+                                       background: #fee648 !important;
+                                        }
+                                   
+                                   
+                                    #popup1 #closes img
+                                    {
+                                        max-width: 20px;
+                                        
+                                         }
+    
+    
+    
+    
+    
+    
+    /* new design for image with effect */
+    
+   
+    #section
+    {
+        position: relative;
+        width: 100%;
+       height: 100vh;
+       transform-style: preserve-3d;
+       perspective: 500px;
+        
+        }  
+        
+         #section h2
+         {
+             position: relative;
+        width: 100%;
+       height: 100vh;
+       text-align: center;
+       line-height: 100vh;
+       font-size: 10vh;
+       color: #fff;
+       font-weight: 700;
+             }
+        
+               .banner
+               {
+                   position:absolute;
+                   top: 0;
+                   left: 0;
+                   width: 100%;
+                   height: 100%;
+                   overflow: hidden;
+                   display: flex;
+                   flex-wrap: wrap;
+                   } 
+                   
+                   
+                   .banner .blocks
+                   {
+                       position: relative;
+                       display: block ;
+                       width: 5vh;
+                       height: 5vh;
+                       
+                       animation: animate 2s ease-in-out forwards;
+                       animation-delay: 1s;
+                       
+                       }                                          
+                       
+                       
+                       @keyframes animate
+                       {
+                           0%
+                           {
+                           
+                           transform: translateZ(2000px);
+                           background: url('../popupimage/2018-11-01-13-46-46-684.jpg');
+                           background-position: center;
+                           background-attachment: fixed;
+                           background-size: cover;
+                           box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+                           }
+                           
+                           100%
+                           {
+                               transform: translateZ(0px);
+                                background: url('../popupimage/2018-11-01-13-46-46-684.jpg');
+                           background-position: center;
+                           background-attachment: fixed;
+                           background-size: cover;
+                           border: 1px solid rgba(0,0,0,.1);
+                           box-shadow: 0 5px 15px rgba(0,0,0,0);
+                               }
+                           }
+                           
+                           
+                           
+                            #section.active .banner .blocks
+                            {
+                       
+                           animation : animateTwo 2s ease-in-out forwards;
+                           background: url('../popupimage/2018-11-01-13-46-46-684.jpg');
+                           background-position: center;
+                           background-attachment: fixed;
+                           background-size: cover;
+                             border: 1px solid rgba(0,0,0,.1);
+                           
+                      
+                                
+                                } 
+                                
+                          @keyframes animateTwo
+                           {
+                           0%
+                           {
+                           
+                           transform: translateZ(0px);
+                           background: url('../popupimage/2018-11-01-13-46-46-684.jpg');
+                           background-position: center;
+                           background-attachment: fixed;
+                           background-size: cover;
+                           box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+                           }
+                           
+                           100%
+                           {
+                               transform: translateZ(2000px);
+                                background: url('../popupimage/2018-11-01-13-46-46-684.jpg');
+                           background-position: center;
+                           background-attachment: fixed;
+                           background-size: cover;
+                           border: 1px solid rgba(0,0,0,.1);
+                           box-shadow: 0 5px 15px rgba(0,0,0,0);
+                               }
+                           }
+                              
+                              
+                              
+                              .logo
+                              {
+                                  height: 70px;
+
+margin: 10px;
+
+width: 100vh;
+                                  }   
+                                  
+                                  
+                                  
+                                  
+                                  .multiselectdd
+{
+
+  
+                                    position: relative;              
+                                      width: 100%;
+                                      padding: 10px;
+                                      background: #f5f5f5;
+                                      color: #333333bd;
+                                      outline: none;
+                                      border: none;
+                                      box-shadow: none;
+                                      margin: 8px 0;
+                                      font-size: 14px; 
+                                        letter-spacing: 1px;
+                                         font-weight: 300;
+                                         
+    
+}                       
+                       
+                       
+              .Footer
+      {
+background-image: linear-gradient(to right top, #6297e6, #938be0, #ba7ecf, #d771b5, #e86895);
+      }                         
+        
+        
+        
+        .scrollTop
+{
+    position: fixed;
+    bottom: 800px;
+    right: 40px;
+    width: 64px;
+    height: 64px;
+    background: white url('../home/upword.png');
+    border-radius: 50%;
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 100000;
+    visibility: visible;
+    opacity: 0;
+    trasition: 0.5s;
+}
+    
+  .scrollTop.active
+  {
+       bottom: 40px;
+       visibility: visible;
+    opacity: 1;
+      
+      }                 
+          
+      .TA
+      {
+      background-image: linear-gradient(to right top, #6297e6, #938be0, #ba7ecf, #d771b5, #e86895);
+         border-radius: 50px; 
+      }  
+       .TB
+      {
+      background-image: linear-gradient(to right top, #6297e6, #938be0, #ba7ecf, #d771b5, #e86895);
+        border-radius: 50px; 
+      }    
+       .TA1
+      {
+     background-image: linear-gradient(to right bottom, #08feff, #15ffe3, #4dffc1, #7afd9b, #a4f874, #a2f675, #9ff375, #9df176, #74f09c, #52edbe, #49e7d7, #5fdfe6);
+         border-radius: 50px; 
+      }  
+       .TB1
+      {
+     background-image: linear-gradient(to right bottom, #08feff, #15ffe3, #4dffc1, #7afd9b, #a4f874, #a2f675, #9ff375, #9df176, #74f09c, #52edbe, #49e7d7, #5fdfe6);
+        border-radius: 50px;  
+      }     
+             
+             
+             
+      .TA:hover
+      {
+       background-image: linear-gradient(to right bottom, #08feff, #15ffe3, #4dffc1, #7afd9b, #a4f874, #a2f675, #9ff375, #9df176, #74f09c, #52edbe, #49e7d7, #5fdfe6);
+       transition: 0.5s;
+       color: #fff;
+ border-radius: 50px; 
+      
+      }  
+       .TB:hover
+      {
+        background-image: linear-gradient(to right bottom, #08feff, #15ffe3, #4dffc1, #7afd9b, #a4f874, #a2f675, #9ff375, #9df176, #74f09c, #52edbe, #49e7d7, #5fdfe6);
+        transition: 0.5s;
+       color: #fff;
+        border-radius: 50px; 
+      }    
+       .TA1:hover
+      {
+      background-image: linear-gradient(to right top, #91b5ea, #a8a8e6, #c19ad9, #d88bc2, #e67ea3);
+       transition: 0.5s;
+ border-radius: 50px; 
+        
+      }  
+       .TB1:hover
+      {
+      background-image: linear-gradient(to right top, #91b5ea, #a8a8e6, #c19ad9, #d88bc2, #e67ea3);
+        border-radius: 50px; 
+         transition: 0.5s;
+       color: #fff;
+      }    
+             
+                  
+                    
+                    
+                    
+                    .Headed
+                    {
+                        background-image: linear-gradient(to right top, #6297e6, #938be0, #ba7ecf, #d771b5, #e86895);
+                        
+                        }   

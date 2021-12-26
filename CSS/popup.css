@@ -1,0 +1,311 @@
+﻿body {
+}
+
+
+.btn
+{
+    position: relative;
+    padding: 15px 20px;
+    margin: 20px;
+    background: #fff;
+    font-size: 18px;
+    display: inline-block;
+    color: #03a9f4 !important;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    
+    
+    
+    
+    }
+    
+    
+    .btn:hover
+    {
+         letter-spacing: 4px;
+          background-color: #AD0057;
+          color: #fff !important;
+        }
+        
+        #popup
+        {
+            position: fixed;
+            top: -100%;
+            left: 50%;
+            transform:translate(-50%,-50%);
+            z-index: 1000;
+            background: #fff;
+            width: 450px;
+            padding: 80px 50px 50px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+            transition: 0.5s;
+            visibility: hidden;
+            
+            } 
+            
+            #popup.active
+            {
+             visibility: visible;
+             top: 50%;
+                }
+            #popup .content
+            
+             {
+                 position: relative;
+                 width: 100%;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 flex-direction: column;
+                 
+                 
+                 }
+                 
+                 #popup .content img
+             {
+                 max-width: 80px;
+             }
+               #popup .content h2
+               {
+                   
+                   font-size: 24px;
+                   font-weight: 500;
+                   color: #333;
+                   margin: 20px 0 10px;
+                   
+                   }
+                   
+                     #popup .content .inputbox
+                     {
+                         position: relative;
+                         width: 100%;
+                         margin-top: 20px;
+                         display: flex;
+                         justify-self: start;
+                         align-items: center;
+                         
+                         }
+                         
+                           #popup .content .inputbox input
+                           {
+                               
+                               width: 100%;
+                               border: 1px solid rgba(0,0,0,0.2);
+                               padding: 15px;
+                               outline: none;
+                               font-size: 18px;
+                               
+                               }
+                               
+                                #popup .content .inputbox input[type="submit"]
+                                {
+                                    max-width: 150px;
+                                   
+                                   background: #112d42; 
+                                                
+                                 /*   background: #03a9f4; */
+                                    color: #fff !important;
+                                    border: none;
+                                    }
+                                     #popup .content .inputbox input[type="submit"]:hover
+                                     {
+                                         background: #ff568c; 
+                                                       transition: 0.5s;
+                                         
+                                         }
+                               
+                               
+                              #popup #close
+                               {
+                                   position: absolute;
+                                   top: 30px;
+                                   left: 480px;
+                                   cursor: pointer;
+                                   
+                                   }
+                                    #popup #close:hover
+                                    {
+                                       background: #fff ; 
+                                        }
+                                   
+                                   
+                                    #popup #close img
+                                    {
+                                        max-width: 20px;
+                                        
+                                         }
+                               
+                               
+                               
+                               
+                               
+                                /* Email indicator and verify */
+                                                
+                                                
+                                                .emails
+                                                {
+                                                    width: 100%;
+                                                    outline: none;
+                                                    background: transperent;
+                                                    border: navajowhite;
+                                                    padding: 10px;
+                                                    background: #f5f5f5;
+                                                      color: #333;
+                                                    font-size: 14px;
+                                                    
+                                                    } 
+                                                    
+                                                  #form .indicator
+                                                    {
+                                                        position : absolute;
+                                                       
+                                                            top: 15px;
+                                                           right: 25px; 
+                                                        width: 12px;
+                                                        height: 12px;
+                                                        background: #f5f5f5;
+                                                        border-radius: 50%;
+                                                        }
+
+                                                       #form.valid .indicator  
+                                                       {
+                                                           background: #0f0 !important;
+                                                           box-shadow: 0 0 5px #0f0,
+                                                                       0 0 10px #0f0,
+                                                                       0 0 20px #0f0,
+                                                                       0 0 40px #0f0;
+                                                           }    
+                                                           
+                                                            #form.invalid .indicator  
+                                                       {
+                                                           background: #f00 !important;
+                                                           box-shadow: 0 0 5px #f00,
+                                                                       0 0 10px #f00,
+                                                                       0 0 20px #f00,
+                                                                       0 0 40px #f00;
+                                                           }
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                          /* section title aimation */
+   .sec-title {
+	position: relative;
+	margin-bottom: 40px;
+}
+.sec-title h2 {
+	position: relative;
+	display: block;
+	font-size: 36px;
+	line-height: 30px;
+	color: #fff;
+	font-weight: 600;
+	padding: 20px;
+	-webkit-mask-image: linear-gradient(-75deg, rgba(10,21,169,0.6) 50%, #ff7e00 50%, rgba(0,0,0,1) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 3s infinite;
+}
+
+.sec-title h2:before{
+	/* content: ""; */
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 40px;
+	/* height: 2px; */
+	background-color:Red;
+}
+
+.sec-title h2:after{
+	/* content: ""; */
+	/* position: absolute; */
+	/* left: 45px; */
+	/* bottom: 0; */
+	/* width: 10px; */
+	/* height: 2px; */
+	/* background-color:#333333; */
+}
+
+
+.sec-title.text-center {
+	right: 0;
+	margin: 0 auto;
+}
+
+.sec-title.text-center h2:before{
+	left: 47%
+}
+
+.sec-title.text-center h2:after{
+	left: 51%;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                               .email
+                                                {
+                                                    width: 100%;
+                                                    outline: none;
+                                                    background: transperent;
+                                                    border: navajowhite;
+                                                    padding: 10px;
+                                                    background: #f5f5f5;
+                                                      color: #333;
+                                                    font-size: 14px;
+                                                    
+                                                    } 
+                                                    
+                                                  #formSignup .indicator
+                                                    {
+                                                        position : absolute;
+                                                       
+                                                               top: 276px;
+                                                             right: 60px; 
+                                                        width: 12px;
+                                                        height: 12px;
+                                                        background: #f5f5f5;
+                                                        border-radius: 50%;
+                                                        }
+
+                                                       #formSignup.valid .indicator  
+                                                       {
+                                                           background: #0f0;
+                                                           box-shadow: 0 0 5px #0f0,
+                                                                       0 0 10px #0f0,
+                                                                       0 0 20px #0f0,
+                                                                       0 0 40px #0f0;
+                                                           }    
+                                                           
+                                                            #formSignup.invalid .indicator  
+                                                       {
+                                                           background: #f00;
+                                                           box-shadow: 0 0 5px #f00,
+                                                                       0 0 10px #f00,
+                                                                       0 0 20px #f00,
+                                                                       0 0 40px #f00;
+                                                           }
+                                                                   
+                                                                   
+                                                                   
